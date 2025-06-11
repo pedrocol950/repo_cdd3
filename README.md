@@ -92,10 +92,3 @@ Clase para ajustar y evaluar un modelo de regresión logística.
 4. `predecir(umbral=0.5)`: Predicción binaria.
 5. `evaluar_modelo()`: Calcula matriz de confusión, sensibilidad, especificidad, error.
 6. `curva_roc()`: Dibuja curva ROC y devuelve el área bajo la curva (AUC).
-
----
-
-## 📦 Dependencias requeridas
-
-```bash
-pip install numpy pandas matplotlib scipy statsmodels scikit-learn
